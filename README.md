@@ -10,7 +10,23 @@ This Project contains a Node.js application using Express and Apollo Server for 
 - Mongoose: MongoDB object modeling for Node.js.
 - bcryptjs: Library for hashing passwords.
 - jsonwebtoken: Implementation of JSON Web Tokens.
+
   <hr/>
+<h3 align="center"><a href="https://idea-clan-task.onrender.com/"><strong>Want to see live preview »</strong></a></h3>
+
+## Demo 
+
+<table>
+  <tr>
+    <td><img maxW="50%" src="https://github.com/osamakhan9/idea-clan-Task/assets/101393695/22c6a337-0b14-4fb2-8a23-1b056a580bed"  alt="home" /></td>
+    <td><img maxW="50%" src="https://github.com/osamakhan9/idea-clan-Task/assets/101393695/fea7ea2b-a51a-4ae2-a135-c91ff357e15d"  alt="coupons" /></td>
+  </tr>
+  <tr>
+   <td><img src="https://github.com/osamakhan9/idea-clan-Task/assets/101393695/5f993054-592d-4366-8adc-da863818745b"  alt="shop" /></td>
+    <td><img src="https://github.com/osamakhan9/idea-clan-Task/assets/101393695/932d05b8-4d6b-4e9e-964c-8e5cd060ed07"  alt="log" /></td>
+  </tr>
+  
+</table>
 
   ## Functionalities
 ### User Authentication
@@ -132,22 +148,6 @@ _id
 }
 }
 ```
-<hr/>
-<h3 align="center"><a href="https://idea-clan-task.onrender.com/"><strong>Want to see live preview »</strong></a></h3>
-
-## Demo 
-
-<table>
-  <tr>
-    <td><img maxW="50%" src="https://github.com/osamakhan9/idea-clan-Task/assets/101393695/22c6a337-0b14-4fb2-8a23-1b056a580bed"  alt="home" /></td>
-    <td><img maxW="50%" src="https://github.com/osamakhan9/idea-clan-Task/assets/101393695/fea7ea2b-a51a-4ae2-a135-c91ff357e15d"  alt="coupons" /></td>
-  </tr>
-  <tr>
-   <td><img src="https://github.com/osamakhan9/idea-clan-Task/assets/101393695/5f993054-592d-4366-8adc-da863818745b"  alt="shop" /></td>
-    <td><img src="https://github.com/osamakhan9/idea-clan-Task/assets/101393695/932d05b8-4d6b-4e9e-964c-8e5cd060ed07"  alt="log" /></td>
-  </tr>
-  
-</table>
 <hr/>
 
 ## Setup
