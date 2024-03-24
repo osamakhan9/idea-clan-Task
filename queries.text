@@ -1,0 +1,81 @@
+==================== SIGNUP ==========================
+signup --------> Query
+
+mutation createUser($userNew:UserInput!){
+user:signupUser(userNew:$userNew){
+  _id
+  email
+  name
+  password
+}
+}
+
+signup --------> value
+1---- first value
+{
+"userNew":{
+"name":"osamakhan",
+  "email":"osamn@gmail.com",
+  "password":"1234"
+}
+}
+=====================  LOGIN  ===========================
+
+Login ----------- Query
+
+mutation Login($userLogin:Userlogin!){
+user:loginUser(userLogin:$userLogin){
+  token
+}
+}
+
+Login --------> value
+
+{
+"userLogin":{
+  "email":"sana@123gmail.com",
+  "password":"1234"
+}
+}
+
+======================= CREATE POST ==============================
+
+create Post ----------------- with admin
+
+mutation CreatePost{
+createPost(name:"I am nice Post")
+}
+
+authorization with your genrator token
+{
+"authorization":"Your token here"
+}
+
+
+
+====================== GET ALL DATA WITH ADMIN NAME ===============================
+
+get All Data with admin Name -----------
+
+query getAllPost{
+posts{
+name
+  by{
+_id
+    name
+  }
+}
+}
+
+=========================== GET BY POST ONE BY ONE ADMIN DATA =============================
+
+query getpostByuser{
+iposts{
+name
+  by{
+_id
+    name
+  }
+}
+}
+
